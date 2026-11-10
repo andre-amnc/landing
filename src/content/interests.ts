@@ -28,7 +28,7 @@ const PLACES: readonly Place[] = [
   { name: "Hunter", at: [1260, 789], photo: { src: "/img/hunter.jpg", focus: [0, 0.2] },
     links: [{ label: "Films on YouTube", url: "https://www.youtube.com/@andre-amnc", icon: "youtube" }, { label: "Stories on Substack", url: "https://andramnc.substack.com", icon: "substack" }, { label: "@gamescout.ca", url: "https://www.instagram.com/gamescout.ca", icon: "instagram" }] },
   { name: "Entrepreneur", at: [1667, 830], photo: { src: "/img/entrepreneur.jpg", focus: [0.5, 0.2] },
-    links: [{ label: "Work1.ai", url: "https://work1.ai" }, { label: "Leathercase", url: "https://leathercase.app" }] },
+    links: [{ label: "Work1.ai", url: "https://work1.ai" }, { label: "Leathercase", url: "https://leathercase.app" }, { label: "Beats Buzz", url: "https://beats.buzz" }] },
 ];
 
 /** The stops in one language: labels, lines, photo descriptions and link labels translated; places and links kept. */

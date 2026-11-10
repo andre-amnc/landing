@@ -19,6 +19,10 @@ Feature: The range
     When I choose "Writer" in the index
     Then the card for "Writer" opens with a link to "Patreon"
 
+  Scenario: The entrepreneur's card links to Beats Buzz
+    When I choose "Entrepreneur" in the index
+    Then the card for "Entrepreneur" opens with a link to "Beats Buzz"
+
   Scenario: Hunting has its own Instagram
     When I choose "Hunter" in the index
     Then the card for "Hunter" opens with a link to "@gamescout.ca"
