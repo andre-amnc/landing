@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "kind": "note",
+    "title": "Beats Buzz",
+    "words": "I've just created the https://beats.buzz service.",
+    "date": "2026-11-10",
+    "url": "https://beats.buzz",
+    "via": "obsidian",
+    "where": "Obsidian"
+  }
+]
