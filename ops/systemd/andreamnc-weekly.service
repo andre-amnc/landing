@@ -7,7 +7,7 @@ After=network-online.target
 
 [Service]
 Type=oneshot
-WorkingDirectory=%h/Development/andre-amnc/landing
+WorkingDirectory=%h/andre-amnc/code/landing
 # zsh -l reads ~/.zshenv (the Buffer key the Now reads); nvm gives the node in .nvmrc.
 ExecStart=/usr/bin/zsh -lc 'source ~/.nvm/nvm.sh && nvm use --silent && npm run -s refresh:weekly'
 Nice=10
